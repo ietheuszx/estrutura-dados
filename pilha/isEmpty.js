@@ -1,5 +1,5 @@
 Array.prototype.isEmpty = function() {
-    return this == 0
+    return this.length  === 0
 }
 
 let pilha = []
